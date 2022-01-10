@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 52px;
+    text-align: center;
+    color: rgb(48, 92, 121); ;
+}
+
+hr {
+    height: 3px;
+    background-color: rgb(48, 92, 121); 
+    margin-bottom: 30px;
+}
+
+.wrap {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;/* 
+    border: 5px solid rgb(48, 92, 121); */
+    padding: 20px;
+}
+
+.task {
+    width: 97%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(48, 92, 121);
+    border-radius: 5px;
+    outline: none;
+}
+
+.task[placeholder] {
+    padding-left: 10px;
+}
+
+.task-list {
+    list-style: none;
+}
+
+.task-item {
+    padding: 10px;
+    background-color: rgb(90, 126, 150);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit, .btn {
+    width: 100px;
+    border: none;
+    color: black;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.clear {
+    background-color: white;
+    border: 3px solid rgb(48, 92, 121); 
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+
+}
+.active {
+    text-decoration: line-through;
+    background-color:  lightgrey;
+}
+
